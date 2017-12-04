@@ -50,6 +50,6 @@ app.use(function(err, req, res, next) {
 });
 
 // PORT
-app.listen(80, () => {
+app.listen(80, function(){
   console.log('Ready');
 });
