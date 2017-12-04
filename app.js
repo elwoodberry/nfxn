@@ -50,7 +50,6 @@ app.use(function(err, req, res, next) {
 });
 
 // PORT
-app.set('port', process.env.PORT || 3000);
-app.listen(app.get('port'), function{
+app.listen(80, () => {
   console.log('Ready');
 });
